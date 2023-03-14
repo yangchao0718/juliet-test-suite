@@ -1,7 +1,9 @@
 version = 1
 
+test_patterns = ["CWE15_External_Control_of_System_or_Configuration_Setting/*"]
+
 [[analyzers]]
 name = "java"
 
   [analyzers.meta]
-  runtime_version = "11"
+  runtime_version = "8"
